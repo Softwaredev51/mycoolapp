@@ -7,6 +7,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
+import java.util.List;
+
 @SpringBootApplication
 public class MycoolappApplication {
 	public static void main(String[] args) {
@@ -17,10 +19,52 @@ public class MycoolappApplication {
 	public CommandLineRunner commandLineRunner(StudentDAO studentDAO){
 		return runner -> {
 //			createStudent(studentDAO);
-//			createMultipleStudents(studentDAO);
-			readStudent(studentDAO);
-
+			createMultipleStudents(studentDAO);
+//			readStudent(studentDAO);
+//			queryForStudent(studentDAO);
+//			findUsingLastName(studentDAO);
+//			updateStudent(studentDAO);
+//			updateAllStudent(studentDAO);
+//			deleteStudent(studentDAO);
+//			deleteAll(studentDAO);
 		};
+	}
+
+	private void deleteAll(StudentDAO studentDAO) {
+		System.out.println("Deleting all Students");
+		int numRowsDeleted = studentDAO.deleteAll();
+		System.out.println("Deleted rows :"+numRowsDeleted);
+	}
+
+	private void deleteStudent(StudentDAO studentDAO) {
+		int studentId = 1;
+		System.out.println("Delete Student Id: "+studentId);
+		studentDAO.delete(studentId);
+	}
+
+	private void updateAllStudent(StudentDAO studentDAO) {
+		System.out.println(studentDAO.updateAll());
+	}
+
+	private void updateStudent(StudentDAO studentDAO) {
+		Student theStudent = studentDAO.findById(1);
+		theStudent.setFirstName("Alice");
+		studentDAO.update(theStudent);
+		System.out.println("Updated Student "+theStudent);
+	}
+
+	private void findUsingLastName(StudentDAO studentDAO) {
+		List<Student> theStudents = studentDAO.findByLastName("bob");
+		for(Student tempStudent : theStudents){
+			System.out.println(tempStudent);
+		}
+	}
+
+	private void queryForStudent(StudentDAO studentDAO) {
+		List<Student> theStudents = studentDAO.findAll();
+		for(Student tempStudent : theStudents){
+			System.out.println(tempStudent);
+		}
 	}
 
 	private void readStudent(StudentDAO studentDAO) {
