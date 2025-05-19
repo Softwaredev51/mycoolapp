@@ -1,4 +1,4 @@
-package com.code.crudrestapi.entity;
+package com.code.restbasic.entity;
 
 public class Student {
     private String firstName;

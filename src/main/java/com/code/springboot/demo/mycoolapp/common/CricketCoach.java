@@ -5,7 +5,6 @@ import jakarta.annotation.PreDestroy;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.context.annotation.Scope;
-import org.springframework.security.web.webauthn.api.CredentialRecord;
 import org.springframework.stereotype.Component;
 
 @Component

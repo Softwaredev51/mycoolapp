@@ -1,6 +1,5 @@
-package com.code.crudrestapi;
+package com.code.restbasic;
 
-import com.code.springboot.demo.mycoolapp.MycoolappApplication;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
