@@ -1,14 +1,14 @@
-package com.code.springboot.demo.mycoolapp;
+package com.code.springboot.demo.hibernate;
 
-import com.code.springboot.demo.mycoolapp.dao.StudentDAO;
-import com.code.springboot.demo.mycoolapp.entity.Student;
+import com.code.springboot.demo.hibernate.entity.Student;
+import com.code.springboot.demo.hibernate.dao.StudentDAO;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 import java.util.List;
-
+//hibernate
 @SpringBootApplication
 public class MycoolappApplication {
 	public static void main(String[] args) {

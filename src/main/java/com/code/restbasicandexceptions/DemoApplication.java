@@ -1,4 +1,4 @@
-package com.code.restbasic;
+package com.code.restbasicandexceptions;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

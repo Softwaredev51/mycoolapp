@@ -1,6 +1,5 @@
-package com.code.springboot.demo.mycoolapp.common;
+package com.code.springboot.demo.hibernate.common;
 
-import org.springframework.context.annotation.Lazy;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 

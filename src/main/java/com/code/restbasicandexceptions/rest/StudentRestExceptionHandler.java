@@ -1,4 +1,4 @@
-package com.code.restbasic.rest;
+package com.code.restbasicandexceptions.rest;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

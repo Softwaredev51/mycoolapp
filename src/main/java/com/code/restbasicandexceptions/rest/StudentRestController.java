@@ -1,6 +1,6 @@
-package com.code.restbasic.rest;
+package com.code.restbasicandexceptions.rest;
 
-import com.code.restbasic.entity.Student;
+import com.code.restbasicandexceptions.entity.Student;
 import jakarta.annotation.PostConstruct;
 import org.springframework.web.bind.annotation.*;
 

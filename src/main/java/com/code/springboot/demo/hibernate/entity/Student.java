@@ -1,4 +1,4 @@
-package com.code.springboot.demo.mycoolapp.entity;
+package com.code.springboot.demo.hibernate.entity;
 
 import jakarta.persistence.*;
 

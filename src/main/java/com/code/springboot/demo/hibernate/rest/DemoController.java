@@ -1,6 +1,6 @@
-package com.code.springboot.demo.mycoolapp.rest;
+package com.code.springboot.demo.hibernate.rest;
 
-import com.code.springboot.demo.mycoolapp.common.Coach;
+import com.code.springboot.demo.hibernate.common.Coach;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.GetMapping;

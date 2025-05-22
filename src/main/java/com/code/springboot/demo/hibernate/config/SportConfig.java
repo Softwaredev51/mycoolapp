@@ -1,7 +1,7 @@
-package com.code.springboot.demo.mycoolapp.config;
+package com.code.springboot.demo.hibernate.config;
 
-import com.code.springboot.demo.mycoolapp.common.Coach;
-import com.code.springboot.demo.mycoolapp.common.SwimCoach;
+import com.code.springboot.demo.hibernate.common.Coach;
+import com.code.springboot.demo.hibernate.common.SwimCoach;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

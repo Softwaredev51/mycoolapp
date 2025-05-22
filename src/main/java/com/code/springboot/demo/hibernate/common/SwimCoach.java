@@ -1,4 +1,4 @@
-package com.code.springboot.demo.mycoolapp.common;
+package com.code.springboot.demo.hibernate.common;
 
 public class SwimCoach implements Coach{
 //    public SwimCoach(){

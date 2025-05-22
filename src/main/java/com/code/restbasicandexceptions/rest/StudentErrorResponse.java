@@ -1,4 +1,4 @@
-package com.code.restbasic.rest;
+package com.code.restbasicandexceptions.rest;
 
 public class StudentErrorResponse {
 

@@ -1,6 +1,6 @@
-package com.code.springboot.demo.mycoolapp.dao;
+package com.code.springboot.demo.hibernate.dao;
 
-import com.code.springboot.demo.mycoolapp.entity.Student;
+import com.code.springboot.demo.hibernate.entity.Student;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.TypedQuery;
 import jakarta.transaction.Transactional;

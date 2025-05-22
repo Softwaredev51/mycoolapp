@@ -1,4 +1,4 @@
-package com.code.restbasic.entity;
+package com.code.restbasicandexceptions.entity;
 
 public class Student {
     private String firstName;
